@@ -23,10 +23,10 @@ General Web projects, from building a simple website to building tools for compl
   - [ ] [P2P File Sharing](#p2p-file-sharing)
   - [ ] [Web Search Engine](#search-engine)
   - [ ] [Bandwidth Monitor](#bandwidth-monitor)
-  - [ ] [Product Landing Page](#product-landing-page)
+  - [x] [Product Landing Page](#product-landing-page)
   - [ ] [Create Your Own Blog](#blog)
-  - [ ] [Your Portfolio Website](#portfolio-website)
-  - [ ] [Animated Navigation Toggle](#animated-navigation-toggle)
+  - [x] [Your Portfolio Website](#portfolio-website)
+  - [x] [Animated Navigation Toggle](#animated-navigation-toggle)
   - [ ] [Country Lookup using IP address](#country-lookup-using-ip-address)
 ### Bots  
 Building automated bots is something you really want to try out at some point in your career/life.  
