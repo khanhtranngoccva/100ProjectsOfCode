@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fonts/fonts.css">
+    <link rel="stylesheet" href="/app.css">
+    <title>To-Do App</title>
+</head>
+<body>
+<div class="title">
+    <h1>Good morning Impostor!</h1>
+</div>
+<div class="nav">
+    <button class="add_button"><img src="/images/add.png"></button>
+    <!--    <button class="settings">Settings</button>-->
+</div>
+<div class="all_tasks">
+
+</div>
+<div class="notifications">
+
+</div>
+<!--<div class="overlay" id="remove_overlay"></div>-->
+<div class="overlay" style="display: none">
+    <form id="add_task_form">
+        <button class="close"></button>
+        <label for="n">New task name</label>
+        <input type="text" placeholder="Untitled" class="name" id="n">
+        <label for="dl">Deadline</label>
+        <input type="datetime-local" class="deadline" id="dl">
+        <label>Recurring</label>
+        <div>
+            <input type="checkbox" class="recurring" value="d" id="d">
+            <label for="d">Every day</label>
+        </div>
+        <div>
+            <input type="checkbox" class="recurring" value="0" id="0">
+            <label for="0">Every Monday</label>
+        </div>
+        <div>
+            <input type="checkbox" class="recurring" value="1" id="1">
+            <label for="1">Every Tuesday</label>
+        </div>
+        <div><input type="checkbox" class="recurring" value="2" id="2">
+            <label for="2">Every Wednesday</label></div>
+        <div><input type="checkbox" class="recurring" value="3" id="3">
+            <label for="3">Every Thursday</label></div>
+        <div><input type="checkbox" class="recurring" value="4" id="4">
+            <label for="4">Every Friday</label></div>
+        <div><input type="checkbox" class="recurring" value="5" id="5">
+            <label for="5">Every Saturday</label></div>
+        <div><input type="checkbox" class="recurring" value="6" id="6">
+            <label for="6">Every Sunday</label></div>
+        <input type="submit" value="Add task">
+    </form>
+</div>
+</body>
+<script src="/jquery.min.js"></script>
+<script src="/eel.js"></script>
+<script src="/app.js"></script>
+</html>
