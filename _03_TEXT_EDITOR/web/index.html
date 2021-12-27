@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fonts/fonts.css">
+    <link rel="stylesheet" href="/highlighttext/highlight.css">
+    <link rel="stylesheet" href="app.css">
+    <title>Untitled</title>
+</head>
+<body>
+<h2>Untitled</h2>
+<nav>
+    <button id="new_tx">New</button>
+    <button id="open_tx">Open</button>
+    <button id="save_tx">Save</button>
+    <button id="save_as_tx">Save as...</button>
+    <input id="find" placeholder="Find...">
+    <input id="replace_as" placeholder="Replace as...">
+    <button id="replace">Replace</button>
+    <button id="replace2">Replace all</button>
+
+</nav>
+<textarea></textarea>
+<div id="unsaved_overlay">
+    <div>
+        <p>Your file is not saved and will be lost. Are you sure to continue?</p>
+        <button id="yes">Yes</button>
+        <button id="no">No</button>
+    </div>
+</div>
+</body>
+
+<script src="/jquery.min.js"></script>
+<script src="/highlighttext/highlight.js"></script>
+<script src="/eel.js"></script>
+<script src="/app.js"></script>
+</html>
