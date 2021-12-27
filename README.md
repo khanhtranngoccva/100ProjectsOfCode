@@ -40,7 +40,7 @@ Proper software or application suggestions that you may even end up using in you
   - [x] [Quiz App](#quiz-app)
   - [ ] [Firewall](#firewall)
   - [x] [ToDo List](#todo-list)
-  - [ ] [Text Editor](#text-editor)
+  - [x] [Text Editor](#text-editor)
   - [ ] [App Builder](#application-builder)
   - [ ] [Drawing App](#drawing-app)
   - [ ] [Survey App](#survey-app)
