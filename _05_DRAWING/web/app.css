@@ -1,0 +1,64 @@
+* {
+    /*box-sizing: border-box;*/
+}
+
+.overlay {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    /*width: 90vw;*/
+    /*height: 90vh;*/
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+nav {
+    background: linear-gradient(45deg, pink, #ee8080);
+    /*height: 50vh;*/
+    width: 120px;
+    border-radius: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    column-gap: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.handle {
+    grid-column: span 2;
+    background: #da1e1e;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px 10px 8px 8px;
+    margin: 0 0 5px;
+}
+
+nav > p {
+    padding: 3px;
+    background: #ffffff;
+    /*width: 100%;*/
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+nav > input {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 5px;
+    height: 25px;
+}
