@@ -42,7 +42,7 @@ Proper software or application suggestions that you may even end up using in you
   - [x] [ToDo List](#todo-list)
   - [x] [Text Editor](#text-editor)
   - [ ] [App Builder](#application-builder)
-  - [ ] [Drawing App](#drawing-app)
+  - [x] [Drawing App](#drawing-app)
   - [ ] [Survey App](#survey-app)
   - [ ] [Web Browser](#web-browser)
   - [ ] [Weather App](#weather-app)
